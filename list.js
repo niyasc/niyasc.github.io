@@ -73,6 +73,7 @@ pageNavi.show = function(f, e, a) {
         return
     }
     var d = b.indexOf("/search/label/") + 14;
+    console.log("d = " + d);
     if (d != 13) {
         var c = b.indexOf("?"),
             a = (c == -1) ? b.substring(d) : b.substring(d, c);
