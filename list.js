@@ -9,6 +9,9 @@ function pageNavi(o) {
     if (e <= 1) {
         return
     }
+    console.log("e = " + e);
+    console.log("k = " + k);
+    console.log("g = " + g);
     var n = 1,
         h = [""];
     l ? h.push("/search/label/" + a + "?max-results=" + pageNaviConf.perPage) : h.push("/?max-results=" + pageNaviConf.perPage);
