@@ -4,10 +4,10 @@ $(document).ready(function() {
   });
   
   $(window).resize(function() {
-    if($('.container').width > 620) {
-      $('nav ul').show();
+    if($('.container').width() > 590) {
+      $('nav ul').css('display', 'block');
     } else {
-      $('nav ul').hide();
+      $('nav ul').css('display', 'none');
     }
   });
 });
