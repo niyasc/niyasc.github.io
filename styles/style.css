@@ -1,7 +1,15 @@
+html, body {
+  padding: 0;
+  margin: 0
+}
+
+header {
+  background: #33363B;
+}
+
 nav {
   margin: auto;
   text-align: center;
-  margin-top: 10px;
   padding: 10px;
 }
 
@@ -28,19 +36,22 @@ nav li {
 }
 
 nav li a {
-  border: 1px solid #eee;
+  /*border: 1px solid black;*/
   padding: 10px 15px;
   text-transform: uppercase;
   transition: background 0.5s ease;
+  color: white;
+  font-weight: bold;
 }
 
 nav li a:focus {
   text-decoration: none;
+  color: white;
 }
 
 nav li a:hover {
   text-decoration: none;
-  background: #ddd;
+  background: white;
 }
 
 @media (max-width: 620px) {
