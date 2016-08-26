@@ -1,4 +1,4 @@
-var app = angular.module("Porfolio", ['ngRoute'])
+var app = angular.module("Porfolio", ['ngRoute', 'angular-loading-bar'])
 
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/', {
