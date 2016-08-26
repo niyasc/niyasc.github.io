@@ -5,6 +5,19 @@ nav {
   padding: 10px;
 }
 
+nav .menu {
+  font-weight: bold;
+  font-size: 18px;
+  background: #33363B;
+  padding: 10px;
+  color: white;
+  display: none;
+}
+
+nav .menu:hover {
+  cursor: pointer;
+}
+
 nav ul{
   list-style-type: none;
   padding-left: 0;
@@ -31,11 +44,19 @@ nav li a:hover {
 }
 
 @media (max-width: 620px) {
+  nav .menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  
   nav li {
     display: block;
     padding: inherit;
   }
-  /*nav li a {*/
-  /*  padding: ;*/
-  /*}*/
+  nav li a {
+    display: block;
+    margin: 5px;
+  }
 }
